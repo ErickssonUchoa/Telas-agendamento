@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f1f3f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background-color:#081e9ce5;
+}
+
+.h1-nap {
+    margin-left: 5px;
+    color: white;
+}
+
+.back svg {
+    height: 30px;
+    color: white;
+}
+
+.back p {
+    color: white;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.h1-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    gap: 20px;
+}
+
+.h1-p h1 {
+    font-size: 4rem;
+    color: #081e9ce5;
+}
+
+.h1-p p {
+    font-size: 1.8rem;
+}
+
+hr {
+    color: #081e9ce5;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: none;
+    background-color: #f1f3f5;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+label {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #081e9ce5;
+}
+
+.container-form {
+    display: flex;
+}
+
+.name {
+    margin-right: 3.5rem;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #081e9ce5; 
+    height: 5rem;
+    font-size: 2rem;
+    background-color: #f1f3f5;
+    margin-bottom: 3rem;
+    width: calc(88.5rem + 88.5rem + 3.5rem);
+}
+
+.name input {
+    width: 88.5rem;
+}
+
+.sobrenome input {
+    width: 88.5rem;
+}
+
+
+input:focus {
+    outline: none;
+    background-color: rgba(0,0,0,0.1);
+}
+
+button {
+    height: 48px;
+    width: 100px;
+    border-radius: 10%;
+    background-color: rgba(8, 30, 156, 0.898);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.6rem;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(8, 30, 156, 5);
+}

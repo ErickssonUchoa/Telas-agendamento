@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f1f3f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    background-color:#081e9ce5;
+}
+
+.back svg {
+    height: 30px;
+    color: white;
+}
+
+.back p {
+    color: white;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.h1-nap {
+    margin-left: 5px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 2rem;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 1.5rem;
+    width: 100vw;
+    text-align: left;
+}
+
+table th {
+    background-color: #081e9ce5;
+    color: white;
+    font-size: 1.8rem;
+}
+
+table td {
+    background-color: #f1f3f5;
+    font-size: 1.6rem;
+}
+
+svg {
+    height: 25px;
+}
+
+caption {
+    margin: 2rem 0 1rem 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: #081e9ce5;
+}
+
+tr td:nth-child(6) {
+    text-align: end;
+}
+
+td:nth-child(6) a {
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+
+td a svg {
+    color: rgba(8, 30, 156, 0.898);
+}
+
+td a svg:hover {
+    color: rgba(8, 30, 156, 0.7);
+}
+
+td svg {
+    color: #081e9ce5;
+}
+
+svg:hover {
+    color: rgba(0,0,0,0.7);
+}
+
