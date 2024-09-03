@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 html {
     font-size: 62.5%;
     font-family: sans-serif;
@@ -17,8 +22,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 50vw;
+    min-height: 100%;
+    min-width: 50%;
     background-color: #081e9ce5;
     color: aliceblue;
     flex-direction: column;
@@ -43,7 +48,7 @@ h2 {
 
 .container-right {
     height: 100vh;
-    width: 50vw;
+    width: 50%;
     display: flex;
     align-items: center;
     background-color: #f1f3f5;
@@ -71,7 +76,7 @@ input {
     padding: 10px;
     border: none;
     border-bottom: 2px solid #081e9ce5; 
-    width: 170%; 
+    width: 150%; 
     height: 5rem;
     font-size: 2rem;
     background-color: #f1f3f5;

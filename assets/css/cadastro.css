@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
 html {
     font-size: 62.5%;
     font-family: sans-serif;
@@ -97,15 +102,15 @@ input {
     font-size: 2rem;
     background-color: #f1f3f5;
     margin-bottom: 3rem;
-    width: calc(88.5rem + 88.5rem + 3.5rem);
+    width: 100%;
 }
 
 .name input {
-    width: 88.5rem;
+    width: 45em;
 }
 
 .sobrenome input {
-    width: 88.5rem;
+    width: 45em;
 }
 
 
@@ -127,4 +132,8 @@ button {
 
 button:hover {
     background-color: rgba(8, 30, 156, 5);
+}
+
+svg:hover {
+    color: rgba(255,0,0,0.7);
 }
