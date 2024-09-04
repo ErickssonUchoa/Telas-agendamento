@@ -24,6 +24,8 @@ header {
     align-items: center;
     height: 6rem;
     background-color:#081e9ce5;
+    width: 100%;
+    max-width: 100%;
 }
 
 .h1-nap {
@@ -77,6 +79,14 @@ fieldset {
     flex-direction: column;
     margin-left: 3%;
     margin-right: 3%;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 label {
@@ -84,14 +94,6 @@ label {
     font-size: 3rem;
     font-weight: 700;
     color: #081e9ce5;
-}
-
-.container-form {
-    display: flex;
-}
-
-.name {
-    margin-right: 3.5rem;
 }
 
 input {
@@ -102,17 +104,10 @@ input {
     font-size: 2rem;
     background-color: #f1f3f5;
     margin-bottom: 3rem;
+    min-width: 49%;
     width: 100%;
+    max-width: 100%;
 }
-
-.name input {
-    width: 45em;
-}
-
-.sobrenome input {
-    width: 45em;
-}
-
 
 input:focus {
     outline: none;
